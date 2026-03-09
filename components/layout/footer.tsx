@@ -70,7 +70,7 @@ export function Footer() {
                     <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
                         <div className="flex items-center gap-2">
                             <Image
-                                src="/img/imgLogo.png"
+                                src="/img/logo.png"
                                 alt="logo"
                                 width={32}
                                 height={32}

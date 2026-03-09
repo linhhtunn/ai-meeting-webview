@@ -9,7 +9,7 @@ export function Header() {
                 <nav className="flex items-center justify-between h-14 md:h-[68px]">
                     <div className="flex items-center gap-2">
                         <Image
-                            src="/img/imgLogo.png"
+                            src="/img/logo.png"
                             alt="logo"
                             width={32}
                             height={32}
