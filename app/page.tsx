@@ -9,11 +9,15 @@ import { CTABanner } from "@/components/sections/cta-banner";
 
 export default function LandingPage() {
   return (
-    <div className="font-sans overflow-x-hidden bg-white text-black">
-      <Header />
-      <main>
+    <div className="font-sans overflow-x-hidden  text-black">
+          <main>
+      <div className="bg-[linear-gradient(180deg,_#EAEDFF_0%,_#FFFFFF_84.53%)]">
+     
+  
+         <Header />
         <Hero />
         <Stats />
+        </div>
         <SummarySection />
         <OrgManagementSection />
         <MeetingManagementSection />

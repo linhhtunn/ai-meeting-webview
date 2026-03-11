@@ -63,7 +63,7 @@ export function OrgManagementSection() {
 
                     {/* Card mockup */}
                     <div className="f-col order-1 lg:order-2 max-w-[480px] w-full mx-auto lg:mx-0">
-                        <div className="bg-white rounded-2xl shadow-[4px_4px_8px_0_rgba(18,29,83,.12)] p-4 md:p-5 flex flex-col gap-3">
+                        <div className=" w-[476px] bg-white rounded-2xl shadow-[4px_4px_8px_0_rgba(18,29,83,.12)] p-4 md:p-5 flex flex-col gap-3">
                             {/* Banner gradient */}
                             <div className="rounded-xl p-4 bg-[linear-gradient(180deg,#7074CC_0%,#203596_100%)] flex items-start justify-between gap-4">
                                 <div>
@@ -100,12 +100,20 @@ export function OrgManagementSection() {
                                 <span className="text-[#666B6E] text-xs truncate">Số 15, ngõ 4, Cầu Giấy, Hà Nội</span>
                             </div>
                             {/* Scrollable team chips */}
-                            <div className="flex gap-2 overflow-x-auto pb-0.5 -mx-0.5 px-0.5">
+                            <div className ="relative left-[-37px] w-[530.1px] h-[24.2px]">
+                            <div className="absolute flex gap-[12.07px] opacity-100 ">
                                 <TeamChip name="Triển khai A" avatars={["/img/aoDen'.png", "/img/aoBe.png", "/img/aoTrang.png"]} activeAvatar="/img/aoHong.png" />
-                                <TeamChip name="Review Q3" avatars={["/img/aoBe.png", "/img/aoTrang.png"]} activeAvatar="/img/aoDen'.png" />
-                                <TeamChip name="Tiến độ A" avatars={["/img/aoDen'.png", "/img/aoXam.png"]} activeAvatar="/img/avt.png" />
+                                <TeamChip name="Review tiến độ quý 3" avatars={["/img/aoBe.png", "/img/aoTrang.png"]} activeAvatar="/img/aoDen'.png" />
+                                <TeamChip name="Tiến độ dự án A" avatars={["/img/aoDen'.png", "/img/aoXam.png"]} activeAvatar="/img/avt.png" />
+                           </div>
                             </div>
-                            <Image src="/img/trangThai.png" alt="status" width={440} height={100} className="w-full h-auto object-contain rounded-lg" />
+                            <div className ="relative mt-10 w-[530.1px] h-[24.2px]">
+                            <div className="absolute flex gap-[12.07px] opacity-100 ">
+                                <TeamChip name="Báo cáo dự án B" avatars={["/img/user.png", "/img/aoTrang.png"]} activeAvatar="/img/aoDen'.png" />
+                                <TeamChip name="Họp Tổng kết tháng 12" avatars={["/img/aoDen'.png", "/img/aoXam.png"]} activeAvatar="/img/avt.png" />
+                            </div>
+                            </div>
+                            <Image src="/img/trangThai.png" alt="status" width={440} height={100} className="w-full h-auto pt-10 object-contain rounded-lg" />
                         </div>
                     </div>
                 </div>
@@ -116,13 +124,13 @@ export function OrgManagementSection() {
 
 function TeamChip({ name, avatars, activeAvatar }: { name: string; avatars: string[]; activeAvatar: string }) {
     return (
-        <div className="flex items-center gap-2 bg-[#F2F3FD] rounded-xl px-3 py-2 shrink-0">
-            <Image src={activeAvatar} alt="team" width={28} height={28} className="w-7 h-7 rounded-full object-cover" />
-            <div>
-                <p className="text-[11px] font-semibold leading-tight">{name}</p>
+        <div className="flex items-center gap-4 rounded-xl ">
+            <Image src={activeAvatar} alt="team" width={28} height={28} className="w-10 h-10 rounded-full object-cover" />
+            <div  className="bg-[#F2F3FD] w-full h-[51.59px] rounded-[7.04px] pt-[10.06px] pr-[12.07px] pb-[10.06px] pl-[12.07px] rotate-0 opacity-100 " >
+                <p className="text-[11px]  font-semibold leading-tight">{name}</p>
                 <div className="flex -space-x-1.5 mt-0.5">
                     {avatars.map((src, i) => (
-                        <Image key={i} src={src} alt="member" width={14} height={14} className="w-3.5 h-3.5 rounded-full border border-white" />
+                        <Image key={i} src={src} alt="member" width={14} height={14} className="w-4.5 h-4.5 rounded-full border border-white" />
                     ))}
                 </div>
             </div>
@@ -140,30 +148,30 @@ export function MeetingManagementSection() {
     return (
         <section className="sec">
             <div className="wrap">
-                <div className="f-row rev">
+                <div className="f-row rev gap-50">
                     {/* Image panel */}
-                    <div className="f-col order-1 max-w-[480px] w-full mx-auto lg:mx-0">
-                        <div className="relative bg-linear-to-b from-[#F4F5FB] to-[#E2E6F5] rounded-2xl overflow-hidden aspect-square">
+                    <div className="f-col order-2 max-w-[480px] w-full mx-auto  lg:mx-0">
+                        <div className="relative bg-linear-to-b from-[#F4F5FB] to-[#E2E6F5] rounded-2xl aspect-square">
                             <Image src="/img/thongKe.png" alt="stats 0" width={400} height={400} className="absolute top-[10%] left-[8%] w-[80%] h-auto object-contain" />
-                            <Image src="/img/thongKe1.png" alt="stats 1" width={400} height={400} className="absolute top-[42%] left-[-4%] w-[76%] h-auto object-contain z-10" />
-                            <Image src="/img/thongKe2.png" alt="stats 2" width={400} height={400} className="absolute top-[66%] left-[24%] w-[76%] h-auto object-contain z-20" />
+                            <Image src="/img/thongKe1.png" alt="stats 1" width={400} height={400} className="absolute top-[42%] left-[-32px] w-[76%] h-auto object-contain z-10 opacity-100" />
+                            <Image src="/img/thongKe2.png" alt="stats 2" width={400} height={400} className="absolute top-[66%] left-[150px] w-[76%] h-auto object-contain z-20" />
                         </div>
                     </div>
 
                     {/* Text */}
-                    <div className="f-col order-2 text-center lg:text-left">
+                    <div className="f-col order-1  text-center lg:text-left">
                         <h2 className="h-title mb-4">
                             <span className="text-[#203596]">Quản lý và tổng hợp</span>
                             <span> cuộc họp</span>
                         </h2>
-                        <p className="h-sub mb-5 max-w-[500px] mx-auto lg:mx-0">
+                        <p className="h-sub mb-5 max-w-[600px] mx-auto lg:mx-0">
                             Quản lý tập trung toàn bộ cuộc họp với khả năng nghe lại ghi âm, xem bản tóm tắt AI và theo dõi trạng thái từng cuộc họp, giúp bạn nắm bắt thông tin nhanh chóng và hiệu quả.
                         </p>
-                        <ul className="flex flex-col gap-3 mb-6 text-left max-w-[500px] mx-auto lg:mx-0">
+                        <ul className="flex flex-col gap-3 mb-6 text-left max-w-[600px] mx-auto lg:mx-0">
                             {points.map((point, i) => (
                                 <li key={i} className="flex items-start gap-3">
                                     <Image src="/img/dauTich.png" alt="check" width={28} height={28} className="w-6 h-6 md:w-7 md:h-7 shrink-0 mt-0.5" />
-                                    <span className="h-sub">{point}</span>
+                                    <span className="h-sub  ">{point}</span>
                                 </li>
                             ))}
                         </ul>
