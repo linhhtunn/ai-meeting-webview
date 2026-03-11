@@ -1,0 +1,199 @@
+{
+  "common": {
+    "appName": "AI Meeting Note",
+    "login": "Sign in",
+    "freeTrial": "Start free trial",
+    "freeTrialWithArrow": "Start free trial →"
+  },
+  "header": {
+    "brand": "AI Meeting Note",
+    "menu": {
+      "recordAndSummarize": "Record & summarize meetings",
+      "orgManagement": "Organization management system",
+      "meetingManagement": "Meeting management",
+      "customerFeedback": "Customer feedback",
+      "faq": "FAQ"
+    },
+    "language": {
+      "vi": "Vietnamese",
+      "en": "English"
+    }
+  },
+  "footer": {
+    "featuresSupport": "Features & support",
+    "termsPolicies": "Terms & policies",
+    "downloadApp": "Download app",
+    "links": {
+      "recordMeeting": "Record meetings",
+      "speechToText": "Speech to text",
+      "meetingSummary": "Meeting summary",
+      "orgManagement": "Organization management",
+      "meetingManagement": "Meeting management",
+      "customerFeedback": "Customer feedback",
+      "faq": "FAQ",
+      "communityGuidelines": "Community guidelines",
+      "purchasePolicy": "Purchase policy",
+      "cookiePolicy": "Cookie policy",
+      "privacyPolicy": "Privacy policy",
+      "termsOfService": "Terms of service"
+    },
+    "copyright": "2025 All rights reserved."
+  },
+  "hero": {
+    "titleHighlight": "The intelligent assistant for ",
+    "titleRest": "your meetings",
+    "description": "AI Meeting Note is your smart meeting assistant. From brainstorming sessions to professional meetings and presentations, AI Meeting Note ensures every discussion is captured, transcribed and turned into clear, easy-to-follow documents.",
+    "cta": "Start free trial"
+  },
+  "stats": {
+    "items": {
+      "meetings": "Meetings held",
+      "organizations": "Organizations using AI Meeting Note",
+      "timeSaved": "Time saved on meeting minutes",
+      "satisfaction": "User satisfaction"
+    }
+  },
+  "features": {
+    "summary": {
+      "titleHighlighted": "Record and summarize",
+      "titleRest": "your meetings",
+      "description": "From recording to intelligent summaries, AI automatically aggregates and distills key information so you never miss anything important.",
+      "cards": {
+        "record": {
+          "imageAlt": "Record meetings",
+          "title": "Record meetings",
+          "description": "No more manual note-taking – every meeting is fully recorded so you can easily review, summarize and follow up later."
+        },
+        "speechToText": {
+          "imageAlt": "Convert speech to text",
+          "title": "Convert speech to text",
+          "description": "Speech-to-text keeps your meeting content secure and turns it into searchable transcripts that are easy to share and reuse."
+        },
+        "summary": {
+          "imageAlt": "Meeting summary",
+          "title": "Meeting summary",
+          "description": "No need to rewatch the whole recording – all important information is pre-summarized for you by AI."
+        }
+      }
+    },
+    "org": {
+      "titlePrefix": "A centralized ",
+      "titleHighlight": "organization workspace",
+      "description": "A single workspace to manage members, meetings and data, making it easy to share meeting content across your organization.",
+      "points": {
+        "memberManagement": "Manage meeting participants",
+        "centralStorage": "Centralized storage for meetings, minutes and notes",
+        "consistency": "Consistent system that saves time and removes fragmentation"
+      },
+      "banner": {
+        "status": "Completed",
+        "title": "Meetings this week",
+        "description": "You have 8 meetings scheduled this week."
+      },
+      "meeting": {
+        "company": "ABC Company",
+        "members": "08 members",
+        "address": "No. 15, Alley 4, Cau Giay, Ha Noi"
+      },
+      "teams": {
+        "deployA": "Project deployment A",
+        "q3Review": "Q3 progress review",
+        "projectA": "Project A status",
+        "reportB": "Project B report",
+        "summaryDec": "December wrap-up meeting"
+      }
+    },
+    "meeting": {
+      "titleHighlight": "Manage and consolidate",
+      "titleRest": " meetings",
+      "description": "Centrally manage all meetings with recording playback, AI summaries and status tracking so you can stay on top of every discussion.",
+      "points": {
+        "weeklyOverview": "Weekly overview of the meetings you joined",
+        "statusTracking": "Track meeting status (completed, in progress, upcoming)",
+        "storage": "Store, replay recordings and review AI summaries"
+      }
+    }
+  },
+  "testimonials": {
+    "titleHighlight": "What our customers ",
+    "titleRest": "say about us",
+    "description": "Real-world experiences from teams and organizations that have optimized their meeting workflows with us.",
+    "items": {
+      "nguyenA": {
+        "name": "Nguyễn Văn A",
+        "role": "Director, ABC Company",
+        "content": "AI Meeting Note helps us save more than 40% of the time spent on meeting minutes. The tool is very easy to use and highly accurate.",
+        "rating": "5.0 ★★★★★"
+      },
+      "tranB": {
+        "name": "Trần Thị B",
+        "role": "Team lead, Startup XYZ",
+        "content": "Vietnamese transcription is highly accurate. AI summaries help the whole team grasp the content even when they miss the meeting.",
+        "rating": "5.0 ★★★★★"
+      },
+      "leC": {
+        "name": "Lê Minh C",
+        "role": "CEO, DEF Enterprise",
+        "content": "Workspace management for the whole organization is very convenient. We use it every day for all our meetings.",
+        "rating": "4.0 ★★★★☆"
+      },
+      "phamD": {
+        "name": "Phạm Văn D",
+        "role": "Project manager, GHI Group",
+        "content": "The interface is friendly and easy to use. Multilingual summarization is impressive and very helpful for our international team.",
+        "rating": "5.0 ★★★★★"
+      },
+      "hoangE": {
+        "name": "Hoàng Thị E",
+        "role": "Administrative assistant, JKL Corp",
+        "content": "I no longer worry about missing key points in long meetings. AI handles this extremely effectively.",
+        "rating": "5.0 ★★★★★"
+      },
+      "doF": {
+        "name": "Đỗ Minh F",
+        "role": "HR manager, MNO Ltd",
+        "content": "Storing and searching meeting minutes is faster than ever. A great solution for the digital workplace.",
+        "rating": "5.0 ★★★★★"
+      },
+      "vuG": {
+        "name": "Vũ Anh G",
+        "role": "Founder, Tech Vision",
+        "content": "High-quality recording with great noise reduction. Perfect for both online and offline meetings.",
+        "rating": "4.0 ★★★★☆"
+      }
+    }
+  },
+  "faq": {
+    "titleHighlight": "Frequently asked questions ",
+    "titleRest": "about AI Meeting Note",
+    "description": "Understanding how AI Meeting Note works helps you save time, reduce manual note-taking and increase meeting efficiency.",
+    "items": {
+      "howItWorks": {
+        "question": "How does AI Meeting Note work?",
+        "answer": "AI Meeting Note records your meetings, automatically transcribes speech into text and generates summaries of key points, decisions and follow-up actions."
+      },
+      "accuracy": {
+        "question": "How accurate is the AI transcription?",
+        "answer": "AI Meeting Note uses state-of-the-art speech recognition technology, reaching up to 98% accuracy for Vietnamese and supporting multiple other languages."
+      },
+      "minutes": {
+        "question": "Can AI Meeting Note automatically generate meeting minutes?",
+        "answer": "Yes. The system automatically structures minutes into sections like meeting objectives, main discussion points, approved decisions and action items."
+      },
+      "workspace": {
+        "question": "Can I create an organization and manage members?",
+        "answer": "Absolutely. AI Meeting Note provides a workspace feature for businesses, allowing you to create organizations, manage members and control access to different meetings."
+      }
+    }
+  },
+  "cta": {
+    "heading": "Start managing your meetings intelligently today",
+    "button": "Start free trial"
+  },
+  "metadata": {
+    "title": "AI Meeting Note - Intelligent assistant for your meetings",
+    "description": "AI Meeting Note records, transcribes and summarizes your meetings with AI to streamline minutes and boost productivity."
+  }
+}
+
+

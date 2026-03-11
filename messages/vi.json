@@ -1,0 +1,199 @@
+{
+  "common": {
+    "appName": "AI Meeting Note",
+    "login": "Đăng nhập",
+    "freeTrial": "Dùng thử miễn phí",
+    "freeTrialWithArrow": "Dùng thử miễn phí →"
+  },
+  "header": {
+    "brand": "AI Meeting Note",
+    "menu": {
+      "recordAndSummarize": "Ghi âm & tóm tắt cuộc họp",
+      "orgManagement": "Hệ thống quản lý Tổ chức",
+      "meetingManagement": "Quản lý Cuộc họp",
+      "customerFeedback": "Phản hồi khách hàng",
+      "faq": "Hỏi đáp"
+    },
+    "language": {
+      "vi": "Tiếng Việt",
+      "en": "Tiếng Anh"
+    }
+  },
+  "footer": {
+    "featuresSupport": "Tính năng và hỗ trợ",
+    "termsPolicies": "Điều khoản & Chính sách",
+    "downloadApp": "Download app",
+    "links": {
+      "recordMeeting": "Ghi âm cuộc họp",
+      "speechToText": "Chuyển lời nói thành văn bản",
+      "meetingSummary": "Tóm tắt Cuộc họp",
+      "orgManagement": "Quản lý Tổ chức",
+      "meetingManagement": "Quản lý Cuộc họp",
+      "customerFeedback": "Phản hồi khách hàng",
+      "faq": "Hỏi đáp",
+      "communityGuidelines": "Nguyên tắc cộng đồng",
+      "purchasePolicy": "Chính sách mua gói",
+      "cookiePolicy": "Chính sách cookie",
+      "privacyPolicy": "Chính sách quyền riêng tư",
+      "termsOfService": "Điều khoản dịch vụ"
+    },
+    "copyright": "2025 All rights reserved."
+  },
+  "hero": {
+    "titleHighlight": "Trợ lý thông minh của ",
+    "titleRest": "các Cuộc họp",
+    "description": "AI Meeting Note - trợ lý cuộc họp thông minh. Từ các buổi thảo luận đến những cuộc họp và thuyết trình chuyên nghiệp, AI Meeting Note đảm bảo mọi nội dung trao đổi đều được ghi lại, phiên âm và tổng hợp thành tài liệu rõ ràng, dễ theo dõi.",
+    "cta": "Dùng thử miễn phí"
+  },
+  "stats": {
+    "items": {
+      "meetings": "Cuộc họp diễn ra",
+      "organizations": "Tổ chức sử dụng",
+      "timeSaved": "Thời gian tổng hợp biên bản được tiết kiệm",
+      "satisfaction": "Người dùng hài lòng"
+    }
+  },
+  "features": {
+    "summary": {
+      "titleHighlighted": "Ghi âm và tóm tắt",
+      "titleRest": "các Cuộc họp",
+      "description": "Từ ghi âm đến tóm tắt thông minh, AI tự động tổng hợp, tóm tắt những nội dung để bạn không bỏ lỡ bất kỳ thông tin quan trọng nào.",
+      "cards": {
+        "record": {
+          "imageAlt": "Ghi âm cuộc họp",
+          "title": "Ghi âm cuộc họp",
+          "description": "Không cần ghi chép thủ công — mọi cuộc họp được ghi âm đầy đủ để bạn dễ dàng xem lại, tóm tắt và theo dõi sau đó."
+        },
+        "speechToText": {
+          "imageAlt": "Chuyển đổi nội dung thành văn bản",
+          "title": "Chuyển đổi nội dung thành văn bản",
+          "description": "Tính năng chuyển giọng nói thành văn bản giúp bạn bảo mật nội dung trong cuộc họp và tạo bản ghi dễ tra cứu, chia sẻ và chuyển thành văn bản."
+        },
+        "summary": {
+          "imageAlt": "Tóm tắt cuộc họp",
+          "title": "Tóm tắt cuộc họp",
+          "description": "Không cần xem lại toàn bộ bản ghi — mọi thông tin quan trọng đã được AI tóm tắt sẵn cho bạn."
+        }
+      }
+    },
+    "org": {
+      "titlePrefix": "Hệ thống ",
+      "titleHighlight": "quản lý Tổ chức",
+      "description": "Một workspace tập trung để quản lý thành viên, cuộc họp và dữ liệu trong cùng một hệ thống, dễ dàng chia sẻ nội dung cuộc họp.",
+      "points": {
+        "memberManagement": "Quản lý thành viên cuộc họp",
+        "centralStorage": "Lưu trữ cuộc họp, biên bản và ghi chú tập trung",
+        "consistency": "Hệ thống nhất quán, tiết kiệm thời gian và loại bỏ sự phân mảnh"
+      },
+      "banner": {
+        "status": "Đã diễn ra",
+        "title": "Cuộc họp trong tuần",
+        "description": "Bạn có 8 cuộc họp trong tuần này."
+      },
+      "meeting": {
+        "company": "Công ty ABC",
+        "members": "08 thành viên",
+        "address": "Số 15, ngõ 4, Cầu Giấy, Hà Nội"
+      },
+      "teams": {
+        "deployA": "Triển khai A",
+        "q3Review": "Review tiến độ quý 3",
+        "projectA": "Tiến độ dự án A",
+        "reportB": "Báo cáo dự án B",
+        "summaryDec": "Họp Tổng kết tháng 12"
+      }
+    },
+    "meeting": {
+      "titleHighlight": "Quản lý và tổng hợp",
+      "titleRest": " cuộc họp",
+      "description": "Quản lý tập trung toàn bộ cuộc họp với khả năng nghe lại ghi âm, xem bản tóm tắt AI và theo dõi trạng thái từng cuộc họp, giúp bạn nắm bắt thông tin nhanh chóng và hiệu quả.",
+      "points": {
+        "weeklyOverview": "Bảng tổng hợp số lượng cuộc họp đã tham gia theo tuần",
+        "statusTracking": "Theo dõi trạng thái các cuộc họp (đã diễn ra, đang diễn ra, sắp tới)",
+        "storage": "Lưu trữ, nghe lại ghi âm và xem tóm tắt cuộc họp"
+      }
+    }
+  },
+  "testimonials": {
+    "titleHighlight": "Khách hàng nói gì ",
+    "titleRest": "về chúng tôi?",
+    "description": "Trải nghiệm thực tế từ các đội nhóm và doanh nghiệp đã tối ưu quy trình họp cùng chúng tôi.",
+    "items": {
+      "nguyenA": {
+        "name": "Nguyễn Văn A",
+        "role": "Giám đốc, Công ty ABC",
+        "content": "AI Meeting Note giúp chúng tôi tiết kiệm hơn 40% thời gian tổng hợp biên bản. Công cụ rất dễ dùng và chính xác.",
+        "rating": "5.0 ★★★★★"
+      },
+      "tranB": {
+        "name": "Trần Thị B",
+        "role": "Trưởng nhóm, Startup XYZ",
+        "content": "Phiên âm tiếng Việt rất chính xác. Tóm tắt AI giúp cả nhóm nắm được nội dung ngay cả khi vắng mặt.",
+        "rating": "5.0 ★★★★★"
+      },
+      "leC": {
+        "name": "Lê Minh C",
+        "role": "CEO, Doanh nghiệp DEF",
+        "content": "Quản lý workspace cho cả tổ chức rất tiện. Chúng tôi dùng hằng ngày cho tất cả các buổi họp.",
+        "rating": "4.0 ★★★★☆"
+      },
+      "phamD": {
+        "name": "Phạm Văn D",
+        "role": "Quản lý dự án, GHI Group",
+        "content": "Giao diện thân thiện, dễ sử dụng. Khả năng tóm tắt đa ngôn ngữ thực sự ấn tượng và hữu ích cho team quốc tế của chúng tôi.",
+        "rating": "5.0 ★★★★★"
+      },
+      "hoangE": {
+        "name": "Hoàng Thị E",
+        "role": "Trợ lý hành chính, JKL Corp",
+        "content": "Tôi không còn phải lo lắng về việc bỏ sót ý chính trong các cuộc họp kéo dài. AI làm việc này cực kỳ hiệu quả.",
+        "rating": "5.0 ★★★★★"
+      },
+      "doF": {
+        "name": "Đỗ Minh F",
+        "role": "Trưởng phòng Nhân sự, MNO Ltd",
+        "content": "Việc lưu trữ và tra cứu biên bản họp trở nên nhanh chóng hơn bao giờ hết. Một giải pháp tuyệt vời cho văn phòng số.",
+        "rating": "5.0 ★★★★★"
+      },
+      "vuG": {
+        "name": "Vũ Anh G",
+        "role": "Founder, Tech Vision",
+        "content": "Hệ thống ghi âm chất lượng cao, lọc tạp âm tốt. Rất phù hợp cho các buổi họp online lẫn offline tại văn phòng.",
+        "rating": "4.0 ★★★★☆"
+      }
+    }
+  },
+  "faq": {
+    "titleHighlight": "Câu hỏi thường gặp ",
+    "titleRest": "về AI Meeting Note",
+    "description": "Hiểu rõ cách AI Meeting Note hoạt động giúp bạn tiết kiệm thời gian, giảm tải công việc ghi chép thủ công và nâng cao hiệu quả quản lý cuộc họp.",
+    "items": {
+      "howItWorks": {
+        "question": "AI Meeting Note hoạt động như thế nào?",
+        "answer": "AI Meeting Note ghi âm cuộc họp, tự động phiên âm lời nói thành văn bản và tạo bản tóm tắt nội dung chính, quyết định và các việc cần thực hiện sau cuộc họp."
+      },
+      "accuracy": {
+        "question": "Độ chính xác của phiên âm AI là bao nhiêu?",
+        "answer": "AI Meeting Note sử dụng công nghệ nhận diện giọng nói tiên tiến nhất, đạt độ chính xác lên tới 98% cho tiếng Việt và hỗ trợ nhiều ngôn ngữ khác nhau."
+      },
+      "minutes": {
+        "question": "AI Meeting Note có tự động tạo biên bản cuộc họp không?",
+        "answer": "Có, hệ thống sẽ tự động phân loại các mục trong biên bản như: mục tiêu cuộc họp, các điểm thảo luận chính, quyết định đã được thông qua và danh sách công việc cần làm."
+      },
+      "workspace": {
+        "question": "Tôi có thể tạo tổ chức và quản lý thành viên không?",
+        "answer": "Hoàn toàn được. AI Meeting Note cung cấp tính năng Workspace dành cho doanh nghiệp, cho phép bạn tạo tổ chức, thêm bớt thành viên và phân quyền truy cập vào các cuộc họp khác nhau."
+      }
+    }
+  },
+  "cta": {
+    "heading": "Bắt đầu quản lý cuộc họp thông minh ngay hôm nay",
+    "button": "Dùng thử miễn phí"
+  },
+  "metadata": {
+    "title": "AI Meeting Note - Trợ lý thông minh cho các cuộc họp",
+    "description": "AI Meeting Note giúp ghi âm, phiên âm và tóm tắt cuộc họp bằng AI, tối ưu quản lý biên bản và nâng cao hiệu suất làm việc."
+  }
+}
+
+
