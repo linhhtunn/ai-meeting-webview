@@ -1,37 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 AI Meeting Webview
 
-## Getting Started
+Một nền tảng **Webview hỗ trợ trải nghiệm họp trực tuyến tích hợp AI**, được xây dựng với **Next.js** nhằm tối ưu hiệu năng, khả năng mở rộng và trải nghiệm người dùng hiện đại.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧰 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js\&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react\&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript\&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css\&logoColor=white)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Framework:** Next.js (App Router)
+**Language:** TypeScript
+**UI Styling:** Tailwind CSS
+**Internationalization:** next-intl
+**Architecture:** Component-based architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌐 Project Overview
 
-To learn more about Next.js, take a look at the following resources:
+Dự án được thiết kế nhằm cung cấp **giao diện Webview nhẹ, nhanh và tối ưu** cho các hệ thống họp trực tuyến tích hợp AI.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎯 Mục tiêu
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Tạo giao diện webview **nhẹ và nhanh**
+* Hỗ trợ **đa ngôn ngữ (i18n)**
+* Thiết kế **UI hiện đại và tối giản**
+* Tối ưu hiệu năng khi chạy trong **Webview môi trường mobile/app**
 
-## Deploy on Vercel
+Ngoài ra, hệ thống còn được thiết kế để **mở rộng dễ dàng cho các tính năng AI trong tương lai**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📸 Demo Interface
+### Homepage
 
+<p align="center">
+  <img src="assets/anh1.png" width="900"/>
+</p>
+
+### Features Section
+
+<p align="center">
+  <img src="assets/anh2.png" width="900"/>
+</p>
+
+### Statistics Section
+
+<p align="center">
+  <img src="assets/anh3.png" width="900"/>
+</p>
+
+### Testimonials Section
+
+<p align="center">
+  <img src="assets/anh4.png" width="900"/>
+</p>
+
+### FAQ Section
+
+<p align="center">
+  <img src="assets/anh5.png" width="900"/>
+</p>
+
+### Footer
+
+<p align="center">
+  <img src="assets/anh6.png" width="900"/>
+</p>
