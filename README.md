@@ -1,37 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AI Meeting Webview
 
-## Getting Started
+Một nền tảng Webview hỗ trợ trải nghiệm họp trực tuyến tích hợp AI, được xây dựng với Next.js nhằm tối ưu hiệu năng, khả năng mở rộng và trải nghiệm người dùng hiện đại.
 
-First, run the development server:
+🔗 Trải nghiệm dự án
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Repository: https://github.com/linhhtunn/ai-meeting-webview
+Tech Stack: Next.js + React + TypeScript + Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎨 Tổng Quan Giao Diện
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Dự án được thiết kế với mục tiêu cung cấp giao diện webview nhẹ, nhanh và thân thiện với người dùng cho các hệ thống họp trực tuyến tích hợp AI.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Giao diện tập trung vào:
 
-## Learn More
+Trải nghiệm người dùng mượt mà
 
-To learn more about Next.js, take a look at the following resources:
+Khả năng hiển thị đa ngôn ngữ (i18n)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Thiết kế tối giản nhưng hiện đại
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Tối ưu hiệu năng khi chạy trên Webview
 
-## Deploy on Vercel
+Ngoài ra, hệ thống còn hỗ trợ quản lý nội dung hiển thị, điều hướng thông minh và khả năng mở rộng cho nhiều tính năng AI trong tương lai.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🛠 Công Nghệ Sử Dụng
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Framework
 
+Next.js (App Router)
+
+React.js
+
+Ngôn ngữ
+
+TypeScript
+
+Styling
+
+Tailwind CSS
+
+Internationalization
+
+next-intl (đa ngôn ngữ)
+
+Architecture
+
+Component-based architecture
+
+Modular folder structure
+
+Server & Client Components của Next.js
+
+📂 Cấu Trúc Dự Án
+app/
+components/
+i18n/
+messages/
+public/
+lib/
+
+Giải thích:
+
+app/ – Routing và layout chính của Next.js
+
+components/ – Các UI components tái sử dụng
+
+i18n/ – Cấu hình đa ngôn ngữ
+
+messages/ – File nội dung cho từng ngôn ngữ
+
+public/ – Tài nguyên tĩnh (images, icons…)
+
+lib/ – Các utility functions và logic dùng chung
+
+🌍 Hỗ Trợ Đa Ngôn Ngữ (i18n)
+
+Dự án sử dụng next-intl để hỗ trợ nhiều ngôn ngữ.
+
+Ví dụ cấu trúc:
+
+messages/
+ ├ en.json
+ └ vi.json
+
+URL sẽ có dạng:
+
+/en
+/vi
+
+Giúp hệ thống hiển thị nội dung phù hợp với ngôn ngữ của người dùng.
+
+📸 Hình Ảnh Demo
+1. Trang chính
+
+Main Interface
+
+2. Giao diện Webview
+
+Webview Interface
+
+3. Hỗ trợ đa ngôn ngữ
+
+Internationalization
+
+4. Component UI
+
+Reusable Components
+
+5. Responsive Layout
+
+Responsive Design
