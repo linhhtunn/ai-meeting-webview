@@ -35,33 +35,38 @@ Ngoài ra, hệ thống còn được thiết kế để **mở rộng dễ dàn
 ---
 
 ## 📸 Demo Interface
+### Homepage
 
-### 1️⃣ Main Interface
+<p align="center">
+  <img src="assets/anh1.png" width="900"/>
+</p>
 
-Trang giao diện chính của ứng dụng.
+### Features Section
 
----
+<p align="center">
+  <img src="assets/anh2.png" width="900"/>
+</p>
 
-### 2️⃣ Webview Integration
+### Statistics Section
 
-Giao diện tối ưu để hiển thị trong môi trường Webview.
+<p align="center">
+  <img src="assets/anh3.png" width="900"/>
+</p>
 
----
+### Testimonials Section
 
-### 3️⃣ Internationalization (i18n)
+<p align="center">
+  <img src="assets/anh4.png" width="900"/>
+</p>
 
-Hỗ trợ nhiều ngôn ngữ thông qua hệ thống **next-intl**.
+### FAQ Section
 
----
+<p align="center">
+  <img src="assets/anh5.png" width="900"/>
+</p>
 
-### 4️⃣ Reusable Components
+### Footer
 
-Các UI component được thiết kế để **tái sử dụng và mở rộng**.
-
----
-
-### 5️⃣ Responsive Layout
-
-Giao diện tương thích với nhiều kích thước màn hình.
-
----
+<p align="center">
+  <img src="assets/anh6.png" width="900"/>
+</p>
