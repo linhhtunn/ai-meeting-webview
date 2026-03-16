@@ -1,112 +1,67 @@
-AI Meeting Webview
+# 🚀 AI Meeting Webview
 
-Một nền tảng Webview hỗ trợ trải nghiệm họp trực tuyến tích hợp AI, được xây dựng với Next.js nhằm tối ưu hiệu năng, khả năng mở rộng và trải nghiệm người dùng hiện đại.
+Một nền tảng **Webview hỗ trợ trải nghiệm họp trực tuyến tích hợp AI**, được xây dựng với **Next.js** nhằm tối ưu hiệu năng, khả năng mở rộng và trải nghiệm người dùng hiện đại.
 
-🔗 Trải nghiệm dự án
+---
 
-Repository: https://github.com/linhhtunn/ai-meeting-webview
-Tech Stack: Next.js + React + TypeScript + Tailwind CSS
+## 🧰 Tech Stack
 
-🎨 Tổng Quan Giao Diện
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js\&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react\&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript\&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css\&logoColor=white)
 
-Dự án được thiết kế với mục tiêu cung cấp giao diện webview nhẹ, nhanh và thân thiện với người dùng cho các hệ thống họp trực tuyến tích hợp AI.
+**Framework:** Next.js (App Router)
+**Language:** TypeScript
+**UI Styling:** Tailwind CSS
+**Internationalization:** next-intl
+**Architecture:** Component-based architecture
 
-Giao diện tập trung vào:
+---
 
-Trải nghiệm người dùng mượt mà
+## 🌐 Project Overview
 
-Khả năng hiển thị đa ngôn ngữ (i18n)
+Dự án được thiết kế nhằm cung cấp **giao diện Webview nhẹ, nhanh và tối ưu** cho các hệ thống họp trực tuyến tích hợp AI.
 
-Thiết kế tối giản nhưng hiện đại
+### 🎯 Mục tiêu
 
-Tối ưu hiệu năng khi chạy trên Webview
+* Tạo giao diện webview **nhẹ và nhanh**
+* Hỗ trợ **đa ngôn ngữ (i18n)**
+* Thiết kế **UI hiện đại và tối giản**
+* Tối ưu hiệu năng khi chạy trong **Webview môi trường mobile/app**
 
-Ngoài ra, hệ thống còn hỗ trợ quản lý nội dung hiển thị, điều hướng thông minh và khả năng mở rộng cho nhiều tính năng AI trong tương lai.
+Ngoài ra, hệ thống còn được thiết kế để **mở rộng dễ dàng cho các tính năng AI trong tương lai**.
 
-🛠 Công Nghệ Sử Dụng
+---
 
-Framework
+## 📸 Demo Interface
 
-Next.js (App Router)
+### 1️⃣ Main Interface
 
-React.js
+Trang giao diện chính của ứng dụng.
 
-Ngôn ngữ
+---
 
-TypeScript
+### 2️⃣ Webview Integration
 
-Styling
+Giao diện tối ưu để hiển thị trong môi trường Webview.
 
-Tailwind CSS
+---
 
-Internationalization
+### 3️⃣ Internationalization (i18n)
 
-next-intl (đa ngôn ngữ)
+Hỗ trợ nhiều ngôn ngữ thông qua hệ thống **next-intl**.
 
-Architecture
+---
 
-Component-based architecture
+### 4️⃣ Reusable Components
 
-Modular folder structure
+Các UI component được thiết kế để **tái sử dụng và mở rộng**.
 
-Server & Client Components của Next.js
+---
 
-📂 Cấu Trúc Dự Án
-app/
-components/
-i18n/
-messages/
-public/
-lib/
+### 5️⃣ Responsive Layout
 
-Giải thích:
+Giao diện tương thích với nhiều kích thước màn hình.
 
-app/ – Routing và layout chính của Next.js
-
-components/ – Các UI components tái sử dụng
-
-i18n/ – Cấu hình đa ngôn ngữ
-
-messages/ – File nội dung cho từng ngôn ngữ
-
-public/ – Tài nguyên tĩnh (images, icons…)
-
-lib/ – Các utility functions và logic dùng chung
-
-🌍 Hỗ Trợ Đa Ngôn Ngữ (i18n)
-
-Dự án sử dụng next-intl để hỗ trợ nhiều ngôn ngữ.
-
-Ví dụ cấu trúc:
-
-messages/
- ├ en.json
- └ vi.json
-
-URL sẽ có dạng:
-
-/en
-/vi
-
-Giúp hệ thống hiển thị nội dung phù hợp với ngôn ngữ của người dùng.
-
-📸 Hình Ảnh Demo
-1. Trang chính
-
-Main Interface
-
-2. Giao diện Webview
-
-Webview Interface
-
-3. Hỗ trợ đa ngôn ngữ
-
-Internationalization
-
-4. Component UI
-
-Reusable Components
-
-5. Responsive Layout
-
-Responsive Design
+---
